@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+}
+main{
+    grid-template: 
+    "first first first first first first first"
+    "second second second second second second second"
+    "third third third third thrid third third"
+    "kartinki kartinki kartinki kartinki kartinki kartinki kartinki"
+    ;
+}
