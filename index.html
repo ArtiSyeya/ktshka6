@@ -1,41 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Макет Grid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="head1">
-            <h1>Whitesquare</h1>
-            <input type="search">поиск</input>
-        </div>
-        <div class="head2">
-            <nav>
-                <div class="Swaga">HOME</div>
-                <div class="Swaga">ABOUT US</div>
-                <div class="Swaga">SERVICES</div>
-                <div class="Swaga">PARTNERS</div>
-                <div class="Swaga">CUSTOMERS</div>
-                <div class="Swaga">PROJECTS</div>
-                <div class="Swaga">CAREERS</div>
-                <div class="Swaga">CONTACT</div>
-            </nav>
-        </div>
+  <div class="container">
+    <header class="top">
+      <div class="logo">WhiteSquare</div>
+      <div class="search">Поиск</div>
     </header>
-    <main>
-        <div class="first">
-            <div class="1kart"></div>
-            <div class="1vibor"></div>
-            <div class="1vibor"></div>
-            <div class="1vibor"></div>
-            <div class="1vibor"></div>
-        </div>
-        <div class="second">
-            <div></div>
-        </div>
-    </main>
+    <header class="nav">
+      <div class="swaga">HOME</div>
+      <div class="swaga">ABOUT US</div>
+      <div class="swaga">SERVICES</div>
+      <div class="swaga">PARTNERS</div>
+      <div class="swaga">CUSTOMERS</div>
+      <div class="swaga">PROJECTS</div>
+      <div class="swaga">CAREERS</div>
+      <div class="swaga">CONTACT</div>
+    </header>
+
+    <section class="first">
+      <h1>ФУСКЕ не помню что там</h1>
+      <img src="https://cdn.fishki.net/upload/post/201601/13/1810009/14_123.jpg" alt="">
+    </section>
+
+    <section class="row cols-4">
+      <article class="card">
+        <h3>1. Lorem ipsum</h3>
+      </article>
+      <article class="card">
+        <h3>2. Ultrices</h3>
+      </article>
+      <article class="card">
+        <h3>3. Aliquam</h3>
+      </article>
+      <article class="card">
+        <h3>4. Nunc sed</h3>
+      </article>
+    </section>
+
+    <section class="row cols-2">
+      <article class="card">
+        <h3>Блок подробнее A</h3>
+      </article>
+      <article class="card">
+        <h3>Блок подробнее B</h3>
+      </article>
+    </section>
+
+    <section class="row cols-3">
+      <article class="card">
+        <h3>Наши услуги</h3>
+        <p>Короткое описание услуги 1.</p>
+      </article>
+      <article class="card">
+        <h3>Команда</h3>
+        <p>Короткое описание блока команды.</p>
+      </article>
+      <article class="card">
+        <h3>Поддержка</h3>
+        <p>Короткое описание службы поддержки.</p>
+      </article>
+    </section>
+
+    <section class="row cols-7">
+      <div class="card"><img src="https://www.meme-arsenal.com/memes/c6ce7f75ec2ae7df9f4677d8e195375c.jpg" alt=""></div>
+      <div class="card"><img src="https://mixnews.lv/wp-content/uploads/2019/12/12/1575746521_ericobear_73387392_478808356066220_7567555692648892619_n.jpg" alt=""></div>
+      <div class="card"><img src="https://lentv24.ru/media/photos/187084.jpg" alt=""></div>
+      <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnISn0Ma9s0Qt_xYZ-AyMCd_hBBk5P3XJ0jA&s" alt=""></div>
+      <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoHYIFOj5VbrjnYejitigft8aqwp6XlqMDGA&s" alt=""></div>
+      <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCDeNCJVyy63cSsw3AD8aP1othDHYQN_TT8g&s" alt=""></div>
+      <div class="card"><img src="https://avatars.mds.yandex.net/i?id=bde0708924c170d75fdd6b981d192f0b7f67ab78-4552023-images-thumbs&n=13" alt=""></div>
+    </section>
+
+  </div>
 </body>
 </html>
