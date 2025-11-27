@@ -52,7 +52,7 @@ body{
   }
 
 /* Большой квадрат (hero) */
-.hero{
+.first{
   background:linear-gradient(180deg, #f7fafb 0%, #eef2f6 100%);
   padding:36px;
   min-height:200px;
@@ -61,19 +61,19 @@ body{
   justify-content:center;
   box-shadow:0 2px 6px rgba(15,23,42,0.03);
 }
-.hero h1{margin:0;
-    font-size:28px;
-    letter-spacing:0.6px;
+.first h1{
+  margin:0;
+  font-size:28px;
 }
-.hero img{
-    width: 900px;
-    height: 700px;
+.first img{
+  display: flex;
+  width: 900px;
+  justify-content: center;
+  height: 700px;
 }
 
-/* Ряды карточек — один класс для сетки, ширина колонок задаётся отдельным классом */
 .row{
   display:grid;
-  gap:var(--gap);
 }
 .cols-4{grid-template-columns:repeat(4,1fr)}
 .cols-3{grid-template-columns:repeat(3,1fr)}
